@@ -488,10 +488,11 @@ b.max-bold {
     position: relative;
     margin-bottom: 10px;
     padding-left: 20px;
+    list-style-type: disc;
 }
 
 .education .list>li:before {
-    content: '';
+    /* content: '';
     position: absolute;
     top: 50%;
     left: 0;
@@ -499,7 +500,7 @@ b.max-bold {
     width: 10px;
     margin-top: -5px;
     display: block;
-    border-radius: 10px;
+    border-radius: 10px; */
     border: 2px solid #555;
 }
 
