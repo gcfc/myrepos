@@ -243,7 +243,7 @@ b.max-bold {
     position: relative;
     background-size: cover;
     z-index: 1;
-    background-image: url(../../images/slider-3-1920x1080.jpg);
+    background-image: url(../../images/cover1.jpg);
 }
 
 .intro-section:before {
@@ -916,4 +916,30 @@ b.max-bold {
 .navbar-light .navbar-text a:hover,
 .navbar-light .navbar-text a:focus {
     color: rgba(0, 0, 0, 0.9);
+}
+
+.disable-select {
+    user-select: none;
+    /* supported by Chrome and Opera */
+    -webkit-user-select: none;
+    /* Safari */
+    -khtml-user-select: none;
+    /* Konqueror HTML */
+    -moz-user-select: none;
+    /* Firefox */
+    -ms-user-select: none;
+    /* Internet Explorer/Edge */
+}
+
+.enable-select {
+    user-select: text;
+    /* supported by Chrome and Opera */
+    -webkit-user-select: text;
+    /* Safari */
+    -khtml-user-select: text;
+    /* Konqueror HTML */
+    -moz-user-select: text;
+    /* Firefox */
+    -ms-user-select: text;
+    /* Internet Explorer/Edge */
 }
