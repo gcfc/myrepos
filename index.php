@@ -1,10 +1,10 @@
 <?php
-$name = $_POST['name'];
-$email = $_POST['email'];
-$phone = $_POST['phone'];
-$message = $_POST['message'];
-$formsubject = $_POST['subject'];
-$answer = $_POST['answer'];
+$name = $_REQUEST['name'];
+$email = $_REQUEST['email'];
+$phone = $_REQUEST['phone'];
+$message = $_REQUEST['message'];
+$formsubject = $_REQUEST['subject'];
+$answer = $_REQUEST['answer'];
 $formcontent="From: $name \n Message: $message";
 $recipient = "gcfchen@mit.edu";
 $subject = "Contact Form, Subject: $formsubject";

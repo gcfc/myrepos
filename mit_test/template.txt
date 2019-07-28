@@ -1,0 +1,7 @@
+From: [email]
+To: gcfchen@mit.edu
+Subject: questions three
+
+What is your name?              [yourname]
+What is your quest?             [quest]
+What is your favourite colour?  [colour]

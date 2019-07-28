@@ -494,13 +494,13 @@
                 <!-- col-sm-3 -->
 
                 <div class="col-sm-12 col-md-9">
-                    <form action="mail.php" class="bg-light p-4 p-md-5 contact-form" method="POST">
+                    <form action="http://web.mit.edu/bin/cgiemail/gcfchen/www/mail.txt" class="bg-light p-4 p-md-5 contact-form" method="post">
                         <!-- enctype="text/plain">-->
                         <div class="form-group">
-                            <input type="text" class="form-control" name="name" placeholder="Your Name">
+                            <input type="text" class="form-control" name="required-name" placeholder="Your Name">
                         </div>
                         <div class="form-group">
-                            <input type="text" class="form-control" name="email" placeholder="Your Email">
+                            <input type="text" class="form-control" name="required-email" placeholder="Your Email">
                         </div>
                         <div class="form-group">
                             <input type="text" class="form-control" name="phone" placeholder="Your Phone Number (optional)">
@@ -508,16 +508,18 @@
                         <div class="form-group">
                             <input type="text" class="form-control" name="subject" placeholder="Subject">
                         </div>
-                        <div class="form-group">
+                        <!-- <div class="form-group">
                             <input type="text" class="form-control" name="answer" placeholder="To prove you're not a robot, what is 1 plus one?">
-                        </div>
+                        </div> -->
                         <div class="form-group">
                             <textarea cols="30" rows="7" name="message" class="form-control" placeholder="Enter your message here!"></textarea>
                         </div>
                         <div class="form-group">
                             <input type="submit" value="Send Message" class="btn btn-primary py-3 px-2.5">
                             <input type="reset" value="Clear All" class="btn btn-primary py-3 px-2.5">
+                            <input type="hidden" name="cgiemail-mailopt" value="sync">
                         </div>
+                        <input type="hidden" name="success" value="http://www.mit.edu/~gcfchen/success.html">
                     </form>
                 </div>
             </div>
