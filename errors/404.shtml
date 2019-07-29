@@ -37,17 +37,20 @@
 </head>
 
 <body class="disable-select">
-
+    <nav class="navbar navbar-expand-lg ftco_navbar ftco-navbar-light site-navbar-target" id="ftco-navbar" style="background-color: #FFA804">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">GC</a>
+        </div>
+    </nav>
     <div id="notfound">
         <div class="notfound">
             <div class="notfound-404">
                 <h1>HOLY MOLY!</h1>
             </div>
-            <h2>Looks like you just got 404'd.</h2>
+            <h2>Looks like you just got 404'd!</h2>
             <a href="https://en.wikipedia.org/wiki/HTTP_404">What is 404, you may ask? </a>
-            <p style="color: black"> <br />Not sure why you landed here, but the page you are looking for is not unavailable. </p>
-            <p style="color: black"> ... or my dog ate it ¯\_(ツ)_/¯ </p>
-            <p style="color: black">Don't worry though, you could <a href="http://www.mit.edu/~gcfchen">Return to Homepage</a></p>
+            <p style="color: black"> <br />Not sure why you landed here, but the page you are looking for is not unavailable. ¯\_(ツ)_/¯ </p>
+            <p style="color: black">Don't worry though, you could <a href="index.html">Return to Homepage</a></p>
             <div class="notfound-social">
                 <a href="https://www.linkedin.com/in/gcfchen/"><i class="fa fa-linkedin"></i></a>
                 <a href="https://www.instagram.com/curious.ch3n/"><i class="fa fa-instagram"></i></a>
