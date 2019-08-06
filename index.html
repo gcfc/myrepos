@@ -25,9 +25,12 @@
 
     <link href="css/responsive.css" rel="stylesheet">
 
+    <link rel="stylesheet" href="owlcarousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css">
+
 </head>
 
-<body class="disable-select">
+<body data-spy="scroll" data-target=".site-navbar-target" data-offset="300" class="disable-select">
     <nav class="navbar navbar-expand-lg ftco_navbar ftco-navbar-light site-navbar-target" id="ftco-navbar" style="background-color: #FFA804">
         <div class="container">
             <a class="navbar-brand" href="index.html">GC</a>
@@ -262,7 +265,12 @@
                                 <li>Tested thermal behaviors of the PCBSat prototype in space-like environment in thermal vacuum chamber, modeled and processed temperature signals both numerically and analytically using MATLAB and Thermal Desktop</li>
                                 <li>Calculated center of mass and other inertial and dynamic properties of the nanosatellite to ensure orbital stability using Solidworks and Microsoft Excel</li>
                             </ul>
-                            -------------------INSERT SSL GALLERY & FILES HERE------------------
+                            <!-- GALLERY -->
+                            <div id="owl-demo7" class="owl-carousel owl-theme">
+                                <div class="item"> <img src="images/IMG_4724.jpg" alt=""> </div>
+                                <div class="item"> <img src="images/IMG_9746.jpg" alt=""> </div>
+                                <div class="item"> <img src="images/bliss.jpg" alt=""> </div>
+                            </div>
                         </div>
                         <!-- experience -->
                     </div>
@@ -298,7 +306,12 @@
                         <ul class="list">
                             <li>Programmed and tested an autonomous robot that uses infrared sensors to follow a discontinuously marked course with sharp turns </li>
                         </ul>
-                        -------------------INSERT 2.678 GALLERY HERE------------------
+                        <!-- GALLERY -->
+                        <div id="owl-demo6" class="owl-carousel owl-theme">
+                            <div class="item"> <img src="images/IMG_4724.jpg" alt=""> </div>
+                            <div class="item"> <img src="images/IMG_9746.jpg" alt=""> </div>
+                            <div class="item"> <img src="images/bliss.jpg" alt=""> </div>
+                        </div>
                     </div>
                     <!-- project -->
 
@@ -311,7 +324,12 @@
                             <li>Manufactured and assembled all systems of the robot, including powertrain and transmission </li>
                             <li>Programmed the robot to respond to remote-control commands</li>
                         </ul>
-                        -------------------INSERT 2.007 GALLERY HERE------------------
+                        <!-- GALLERY -->
+                        <div id="owl-demo5" class="owl-carousel owl-theme">
+                            <div class="item"> <img src="images/IMG_4724.jpg" alt=""> </div>
+                            <div class="item"> <img src="images/IMG_9746.jpg" alt=""> </div>
+                            <div class="item"> <img src="images/bliss.jpg" alt=""> </div>
+                        </div>
                     </div>
                     <!-- project -->
 
@@ -325,7 +343,12 @@
                             <li>Programmed speakers to synchronize with key presses using Arduino and wired connections for all electronics</li>
                             <li>Delivered presentation of design ideas to an audience of more than 300 people</li>
                         </ul>
-                        -------------------INSERT 2.00B GALLERY HERE------------------
+                        <!-- GALLERY -->
+                        <div id="owl-demo4" class="owl-carousel owl-theme">
+                            <div class="item"> <img src="images/IMG_4724.jpg" alt=""> </div>
+                            <div class="item"> <img src="images/IMG_9746.jpg" alt=""> </div>
+                            <div class="item"> <img src="images/bliss.jpg" alt=""> </div>
+                        </div>
                     </div>
                     <!-- project -->
 
@@ -338,7 +361,12 @@
                             <li>Researched the effect of wing configurations on flight dynamics and delivered a presentation on the findings</li>
                             <li>Attended lectures on branches within engineering, interplanetary missions, and global engineering challenges</li>
                         </ul>
-                        -------------------INSERT COSMOS GALLERY HERE------------------
+                        <!-- GALLERY -->
+                        <div id="owl-demo3" class="owl-carousel owl-theme">
+                            <div class="item"> <img src="images/IMG_4724.jpg" alt=""> </div>
+                            <div class="item"> <img src="images/IMG_9746.jpg" alt=""> </div>
+                            <div class="item"> <img src="images/bliss.jpg" alt=""> </div>
+                        </div>
                     </div>
                     <!-- project -->
                 </div>
@@ -372,7 +400,12 @@
                             <li>Participated in a yearlong professional development program preparing sophomores for success in the workplace</li>
                             <li>Completed an intensive development workshop taught by MIT faculty and industry professionals, which explores topics such as effective communication, foundational decision-making, and teamwork</li>
                         </ul>
-                        -------------------INSERT UPOP GALLERY HERE------------------
+                        <!-- GALLERY -->
+                        <div id="owl-demo2" class="owl-carousel owl-theme">
+                            <div class="item"> <img src="images/IMG_4724.jpg" alt=""> </div>
+                            <div class="item"> <img src="images/IMG_9746.jpg" alt=""> </div>
+                            <div class="item"> <img src="images/bliss.jpg" alt=""> </div>
+                        </div>
                     </div>
                     <!-- leadership -->
 
@@ -384,7 +417,12 @@
                             <li>Mentored 23 incoming MIT first-year students in a weeklong program, introducing them to product design, ideation, rapid prototyping, and CAD</li>
                             <li>Composed lesson and activity slides, provided students guidance on designing and prototyping their final project </li>
                         </ul>
-                        -------------------INSERT FPOP GALLERY HERE------------------
+                        <!-- GALLERY -->
+                        <div id="owl-demo" class="owl-carousel owl-theme">
+                            <div class="item"> <img src="images/IMG_4724.jpg" alt=""> </div>
+                            <div class="item"> <img src="images/IMG_9746.jpg" alt=""> </div>
+                            <div class="item"> <img src="images/bliss.jpg" alt=""> </div>
+                        </div>
                     </div>
                     <!-- leadership -->
                 </div>
@@ -487,7 +525,6 @@
                         <h3><b>Contact me</b></h3>
                         <h6 class="font-lite-black"><b><q><i>Anytime, Anywhere.</i></q></b></h6>
                         <p><br /></p>
-
                         <img src="images/profile.jpg">
                     </div>
                 </div>
@@ -559,7 +596,69 @@
 
     <script src="js/scripts.js"></script>
 
-    <!-- <script src="js/carousel.js"></script> -->
+    <script src="owlcarousel/jquery.min.js"></script>
+    <script src="owlcarousel/owl.carousel.min.js"></script>
+    <script>
+        $(document).ready(function() {
+
+            $("#owl-demo, #owl-demo1, #owl-demo2, #owl-demo3, #owl-demo4, #owl-demo5, #owl-demo6, #owl-demo7").owlCarousel({
+
+                navigation: true, // Show next and prev buttons
+                slideSpeed: 300,
+                paginationSpeed: 400,
+                // singleItem: true
+
+                // "singleItem:true" is a shortcut for:
+                items: 1,
+                itemsDesktop: false,
+                itemsDesktopSmall: false,
+                itemsTablet: false,
+                itemsMobile: false
+
+            });
+
+        });
+    </script>
+    <script>
+        var scrollWindow = function() {
+            $(window).scroll(function() {
+                var $w = $(this),
+                    st = $w.scrollTop(),
+                    navbar = $('.ftco_navbar'),
+                    sd = $('.js-scroll-wrap');
+
+                if (st > 150) {
+                    if (!navbar.hasClass('scrolled')) {
+                        navbar.addClass('scrolled');
+                    }
+                }
+                if (st < 150) {
+                    if (navbar.hasClass('scrolled')) {
+                        navbar.removeClass('scrolled sleep');
+                    }
+                }
+                if (st > 350) {
+                    if (!navbar.hasClass('awake')) {
+                        navbar.addClass('awake');
+                    }
+
+                    if (sd.length > 0) {
+                        sd.addClass('sleep');
+                    }
+                }
+                if (st < 350) {
+                    if (navbar.hasClass('awake')) {
+                        navbar.removeClass('awake');
+                        navbar.addClass('sleep');
+                    }
+                    if (sd.length > 0) {
+                        sd.removeClass('sleep');
+                    }
+                }
+            });
+        };
+        scrollWindow();
+    </script>
 
 </body>
 
