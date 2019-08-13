@@ -73,11 +73,11 @@
                             <li><b class="font-yellow">ADDRESS</b> : 229 Vassar Street, Cambridge, MA 02139</li>
                         </ul>
                         <ul class="social-icons">
-                            <li><a href="https://www.linkedin.com/in/gcfchen/" target="_blank"><i><img src="images/linkedin.png" style="width: 20px"></i></a></li>
-                            <li><a href="https://www.instagram.com/curious.ch3n/" target="_blank"><i><img src="images/insta.png" style="width: 20px"></i></a></li>
-                            <li><a href="http://facebook.com/gcfchen314" target="_blank"><i><img src="images/fb.png" style="width: 20px; vertical-align: middle"></i></a></li>
+                            <li><a href="https://www.linkedin.com/in/gcfchen/" target="_blank"><i><img src="images/linkedin.png" style="width: 20px; vertical-align: middle" title="LinkedIn"></i></a></li>
+                            <li><a href="https://www.instagram.com/curious.ch3n/" target="_blank"><i><img src="images/insta.png" style="width: 20px; vertical-align: middle" title="Instagram"></i></a></li>
+                            <li><a href="http://facebook.com/gcfchen314" target="_blank"><i><img src="images/fb.png" style="width: 20px; vertical-align: middle" title="Facebook"></i></a></li>
                             <li>
-                                <a href="images/wechat.jpg" target="_blank"><i><img src="images/wechat_logo.png" style="width: 20px"></i></a>
+                                <a href="images/wechat.jpg" target="_blank"><i><img src="images/wechat_logo.jpg" style="width: 25px" title="WeChat"></i></a>
                             </li>
                         </ul>
                     </div>
@@ -154,7 +154,7 @@
                                     <li> Mechanical Engineering Subjects: <br /><br />
                                         <ul class="list margin-b-30">
                                             <li>2.001: Mechanics and Materials I </li>
-                                            <li>2.003, 2.004: Dynamics and Controls I, II </li>
+                                            <li>2.003: Dynamics and Controls I </li>
                                             <li>2.005, 2.006: Thermal-Fluids Engineering I, II </li>
                                             <li>2.671: Measurements and Instrumentation </li>
                                             <li>2.678: Electronics for Mechanical Systems </li>
@@ -165,14 +165,18 @@
                                     </li>
                                     <li> Controls and Software: <br /><br />
                                         <ul class="list margin-b-30">
+                                            <li>2.004: Dynamics and Controls II</li>
                                             <li>2.086: Numerical Computation for Mechanical Engineers </li>
                                             <li>6.003: Signals and Systems </li>
                                             <li>6.S080: Introduction to Python </li>
                                             <li>6.009: Fundamentals of Programming </li>
+                                            <li>6.034: Artificial Intelligence</li>
+                                            <li>6.036: Introduction to Machine Learning (planned)</li>
+                                            <li>6.141: Robotics: Science and Systems (planned) </li>
                                             <li>2.12: Introduction to Robotics (planned)</li>
                                             <li>2.14: Analysis and Design of Feedback Control Systems (planned) </li>
                                             <li>2.151: Advanced System Dynamics and Control (Grad level, planned)</li>
-                                            <li>6.141: Robotics: Science and Systems (planned) </li>
+                                            <li>2.152: Nonlinear Control (Grad level, planned)</li>
                                         </ul>
                                     </li>
                                 </ul>
@@ -216,7 +220,7 @@
                 <div class="col-sm-12 col-md-3">
                     <div class="heading">
                         <h3><b>Work <br />Experience</b></h3>
-                        <br /> <q><i>Theory without practice is sterile. </i></q>
+                        <br /> <q><i>Every practice is a learning process. </i></q>
                         <!-- <h6 class="font-lite-black"><b>PREVIOUS JOBS</b></h6> -->
                     </div>
                 </div>
@@ -322,7 +326,7 @@
                         <p class="margin-tb-30"> The MIT mechanical engineering class that inspired the national FIRST Robotics program. </p>
                         <ul class="list">
                             <li>Prototyped and designed mechanisms to plant a flag and retrieve moonrocks on a platform</li>
-                            <li>Manufactured and assembled all systems of the robot, including powertrain and transmission </li>
+                            <li>Manufactured and assembled all systems of the robot, including powertrain and transmission, using power tools and hand tools </li>
                             <li>Programmed the robot to respond to remote-control commands</li>
                         </ul>
                         <!-- GALLERY -->
@@ -337,9 +341,9 @@
                     <div class="education experience margin-b-50">
                         <h4><b>MIT 2.00B Toy Product Design</b></h4>
                         <h6 class="font-lite-black margin-t-10">FEB 2018 - JUN 2018</h6>
-                        <p class="margin-tb-30">very important, believe me </p>
+                        <p class="margin-tb-30"> Entertainment and play-themed course that explores all stages of the product designing process, including brainstorming, sketch modeling, and prototyping. I worked in a team of four over the course of a semester to prototype a
+                            piano toy that paints onto a rolling sheet of paper. </p>
                         <ul class="list">
-                            <li>Prototyped a piano toy that paints onto a rolling sheet of paper, worked in a team of four over the course of a semester</li>
                             <li>Designed, laser-cut, and 3D printed internal support structures for the piano using Solidworks and Adobe Illustrator</li>
                             <li>Programmed speakers to synchronize with key presses using Arduino and wired connections for all electronics</li>
                             <li>Delivered presentation of design ideas to an audience of more than 300 people</li>
@@ -386,7 +390,7 @@
                 <div class="col-sm-12 col-md-3">
                     <div class="heading">
                         <h3><b>Leadership</b></h3>
-                        <br /> <q><i>Theory without practice is sterile. </i></q>
+                        <br /> <q><i>A leader is one who knows the way, goes the way, and shows the way. </i></q>
                         <!-- <h6 class="font-lite-black"><b>PREVIOUS JOBS</b></h6> -->
                     </div>
                 </div>
@@ -605,6 +609,7 @@
             $("#owl-demo, #owl-demo1, #owl-demo2, #owl-demo3, #owl-demo4, #owl-demo5, #owl-demo6, #owl-demo7").owlCarousel({
 
                 navigation: true, // Show next and prev buttons
+                navigationText: ["<", ">"],
                 slideSpeed: 300,
                 paginationSpeed: 400,
                 // singleItem: true
@@ -614,7 +619,11 @@
                 itemsDesktop: false,
                 itemsDesktopSmall: false,
                 itemsTablet: false,
-                itemsMobile: false
+                itemsMobile: false,
+
+                lazyload: true,
+                rewindSspeed: 1000,
+                autoHeight: true,
 
             });
 

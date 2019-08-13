@@ -18,7 +18,7 @@ George Chen
 	6. PORFOLIO SECTION
 	7. EDUCATION SECTION
     8. FOOTER
-    9. DISABLE / ENABLE SELECT
+    9. ENABLE / DISABLE SELECT
 
 ====================================================
 
@@ -413,6 +413,7 @@ b.max-bold {
 
 .portfolio-section {
     position: relative;
+    z-index: 0;
 }
 
 .portfolio-section .portfolioFilter {
@@ -437,7 +438,6 @@ b.max-bold {
     width: 25%;
     padding: 0 7.5px 0px;
     margin-top: 15px;
-    z-index: 0;
 }
 
 .portfolio-section .p-item a {
@@ -515,7 +515,7 @@ b.max-bold {
 
 
 /* ---------------------------------
-9. DISABLE / ENABLE SELECT
+9. ENABLE / DISABLE SELECT
 --------------------------------- */
 
 .disable-select {
