@@ -24,6 +24,7 @@
     touch-action: manipulation;
     -moz-backface-visibility: hidden;
     display: flex;
+    margin: 0 auto;
 }
 
 .owl-carousel .owl-stage:after {
@@ -53,17 +54,28 @@
 
 .owl-carousel .owl-item {
     min-height: 1px;
-    float: left;
     -webkit-backface-visibility: hidden;
     -webkit-touch-callout: none;
+    float: none;
+    vertical-align: middle;
+    text-align: center;
+    display: table-cell;
+}
+
+.owl-carousel .owl-wrapper {
+    display: table !important;
+}
+
+.owl-carousel .owl-item>div {
+    text-align: center;
 }
 
 .owl-carousel .owl-item img {
-    display: block;
-    width: auto;
+    display: flex;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
-    height: 360px;
+    max-height: 480px;
 }
 
 .owl-carousel .owl-dots.disabled,
@@ -84,7 +96,7 @@
     -khtml-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
-    user-select: none
+    user-select: none;
 }
 
 .owl-carousel .owl-nav button.owl-next,
@@ -93,8 +105,25 @@
     background: 0 0;
     color: inherit;
     border: none;
-    padding: 0!important;
-    font: inherit
+    padding: 5px!important;
+    font: inherit;
+    font-size: 48px;
+}
+
+.owl-carousel .owl-nav button.owl-next {
+    margin-left: 190px;
+    margin-top: -25px;
+}
+
+.owl-carousel .owl-nav button.owl-prev {
+    margin-left: -220px;
+    margin-top: -25px;
+}
+
+.owl-carousel .owl-nav button.owl-next:hover,
+.owl-carousel .owl-nav button.owl-prev:hover {
+    background: none;
+    color: black;
 }
 
 .owl-carousel.owl-loading {
@@ -221,4 +250,20 @@
     z-index: 1;
     height: 100%;
     width: 100%
+}
+
+.owl-carousel .item-video {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+}
+
+.owl-carousel .item-video iframe {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
 }

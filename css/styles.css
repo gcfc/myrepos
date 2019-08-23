@@ -486,7 +486,7 @@ b.max-bold {
     position: relative;
     margin-bottom: 10px;
     padding-left: 20px;
-    list-style-type: disc;
+    list-style-type: circle;
 }
 
 .education .list>li:before {
