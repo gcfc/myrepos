@@ -28,7 +28,11 @@
 
     <link rel="stylesheet" href="owlcarousel/owl.carousel.min.css">
     <link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css">
-
+    <!-- <style>
+        html {
+            scroll-behavior: smooth;
+        }
+    </style> -->
 </head>
 
 <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300" class="disable-select">
@@ -70,7 +74,7 @@
                         <h4 class="font-yellow" style="font-size: 18px">Mechanical Engineering, MIT</h4>
                         <ul class="information enable-select margin-tb-30">
                             <li><b class="font-yellow">EMAIL</b> : gcfchen [at] mit [dot] edu</li>
-                            <li><b class="font-yellow">PHONE</b> : (626) 242-6868</li>
+                            <li><b class="font-yellow">PHONE</b> : 626 242 6868</li>
                             <li><b class="font-yellow">ADDRESS</b> : 229 Vassar Street, Cambridge, MA 02139</li>
                         </ul>
                         <ul class="social-icons">
@@ -106,18 +110,17 @@
                 <div class="col-sm-12 col-md-3">
                     <div class="heading">
                         <h3><b>About me</b></h3>
-                        <!--<h6 class="font-lite-black"><b>PROFESSIONAL PATH</b></h6>-->
                     </div>
                 </div>
                 <!-- col-sm-3 -->
                 <div class="col-sm-12 col-md-9">
-                    <p class="margin-b-50" style="color: black">
+                    <p class="margin-b-50" style="color: black; line-height: 1.75em">
                         <strong>Hello! </strong>I am George Chen, a mechanical engineering undergrad from Massachusetts Institute of Technology.
                     </p>
-                    <p class="margin-b-50" style="color: black">
-                        My years in the institute have made me a fast learner, both in the academic field and in the industry. Once a subject sparks a tiny bit of my interest, I get carried away unraveling its mysteries, one after another. Hence I gained expertise in a versatile
-                        set of skills, including controls, automation, thermal engineering, and design. While the courses I took in the institute gave me a strong base of theoretical knowledge, my previous research, collaborative projects, and industry
-                        experience allowed me to apply said knowledge into practical engineering. I am very fortunate to have collaborated with many passionate people on innovative and impactful projects, and I continue to seek for such opportunities.
+                    <p class="margin-b-50" style="color: black; line-height: 1.75em">
+                        My years in the institute have made me a self-driven quick learner, both in academics and in the industry. Once a subject sparks a tiny bit of my interest, I get carried away unraveling its mysteries, one after another. Hence I gained expertise in a versatile
+                        set of skills, including controls, autonomous systems, and thermal engineering. While the courses I took provided me a strong base of theoretical knowledge, my previous research, collaborative projects, and industry experience
+                        allowed me to apply said knowledge into practical engineering. I am very fortunate to have worked with many passionate people on innovative and impactful projects, and I continue to seek for such opportunities.
                     </p>
                 </div>
                 <!-- col-sm-9 -->
@@ -222,7 +225,6 @@
                     <div class="heading">
                         <h3><b>Work <br />Experience</b></h3>
                         <br /> <q><i>Every practice is a learning process. </i></q>
-                        <!-- <h6 class="font-lite-black"><b>PREVIOUS JOBS</b></h6> -->
                     </div>
                 </div>
                 <!-- col-sm-3 -->
@@ -235,11 +237,13 @@
                             <h5 class="font-yellow"><b>Product Validation Engineer Intern</b></h5>
                             <h6 class="font-lite-black"> <i>Portland, OR</i></h6>
                             <h6 class="font-lite-black margin-t-10">JUN 2019 - AUG 2019</h6>
-                            <p class="margin-tb-30">An automotive company that manufactures commercial vehicles, including Freightliner, Western Star, and Mercedes-Benz. I worked in the Product Validation department which tests and instruments designed systems on the vehicles
-                                before manufacturing. </p>
+                            <p class="margin-tb-30">An automotive company that manufactures commercial vehicles, including Freightliner, Western Star, and Mercedes-Benz. I worked in Product Validation Engineering which tests and instruments designed systems on the vehicles before
+                                putting into production. </p>
                             <ul class="list margin-b-30">
-                                <li>Designed and tested a prototype sensor system for measuring articulation angle of tractor-trailer trucks for instrumentation using Arduino</li>
-                                <li>Assisted in engine noise testing and durability testing efforts, assembled pressure transducers and CAN bus harnesses </li>
+                                <li>Designed and iteratively prototyped a distributed IMU sensor system to measure articulation angle of instrumentation tractor-trailer trucks using Arduino</li>
+                                <li>Tested and evaluated the performance of the sensor system in MATLAB, calibrated the sensors by data fusion with a GPS module using Kalman Filter, designed the interface PCB layout to read and write CAN messages </li>
+                                <li>Validated camera systems by overlaying lane lines on recorded videos using computer vision in Python (OpenCV)</li>
+                                <li>Assisted in engine noise testing and durability testing efforts, assembled brake pressure transducers and CAN bus harnesses for steering / handling tests</li>
                             </ul>
                         </div>
                         <!-- experience -->
@@ -300,7 +304,6 @@
                     <div class="heading">
                         <h3><b>Projects</b></h3>
                         <br /> <q><i>Theory without practice is sterile. </i></q>
-                        <!-- <h6 class="font-lite-black"><b>PREVIOUS JOBS</b></h6> -->
                     </div>
                 </div>
                 <!-- col-sm-3 -->
@@ -313,6 +316,7 @@
                         <p class="margin-tb-30">Grand Champion</p>
                         <ul class="list">
                             <li>Programmed and tested an autonomous robot that uses infrared sensors to follow a discontinuously marked course with sharp turns </li>
+                            <li>Won first place in the autonomous race out of ~60 students</li>
                         </ul>
                         <!-- GALLERY -->
                         <div id="owl-demo6" class="owl-carousel owl-theme">
@@ -330,9 +334,9 @@
                         <h6 class="font-lite-black margin-t-10">FEB 2019 - JUN 2019</h6>
                         <p class="margin-tb-30"> The MIT mechanical engineering class that inspired the national FIRST Robotics program. </p>
                         <ul class="list">
-                            <li>Prototyped and designed mechanisms to plant a flag and retrieve moonrocks on a platform</li>
+                            <li>Prototyped and designed mechanisms to plant a flag and retrieve moonrocks on a game board</li>
                             <li>Manufactured and assembled all systems of the robot, including powertrain and transmission, using power tools and hand tools </li>
-                            <li>Programmed the robot to respond to remote-control commands</li>
+                            <li>Programmed the robot in Arduino to respond to commands from a PlayStation game controller</li>
                         </ul>
                         <!-- GALLERY -->
                         <div id="owl-demo5" class="owl-carousel owl-theme owl-centered">
@@ -372,7 +376,7 @@
                     <div class="education experience margin-b-50">
                         <h4><b>California State Summer School for Math and Science (COSMOS)</b></h4>
                         <h6 class="font-lite-black margin-t-10">SUMMER 2016</h6>
-                        <p class="margin-tb-30">A selective, intensive summer research program held in University of California, Irvine</p>
+                        <p class="margin-tb-30">A selective, intensive summer research program held in University of California, Irvine.</p>
                         <ul class="list">
                             <li>Designed, built, and flew a remote-controlled airplane in collaboration with a team of four students</li>
                             <li>Researched the effect of wing configurations on flight dynamics and delivered a presentation on the findings</li>
@@ -661,7 +665,7 @@
 
 
                 <div class="p-item hometown buildings">
-                    <a href="images/photography/taihsan2.jpeg" data-fluidbox>
+                    <a href="images/photography/taishan2.jpeg" data-fluidbox>
                         <img src="images/photography/taishan2.jpeg" alt=""></a>
                 </div>
                 <!-- p-item -->
@@ -758,9 +762,8 @@
         <p class="footer" style="color:white; font-size: 16px">
             Thank you for visiting, Visitor #
             <a href="#">
-                <img src="https://smallseotools.com/counterDisplay?code=1e1e3879519f1990f26b1f8d9effdeea&style=0008&pad=4&type=page&initCount=10" border="0">
-            </a>
-            ! <br />
+                <img src="http://hitwebcounter.com/counter/counter.php?page=7129109&style=0025&nbdigits=5&type=page&initCount=200">
+            </a> ! <br />
             <script>
                 document.write((new Date().getMonth() + 1) + '/' + new Date().getDate() + '/' + new Date().getFullYear());
             </script>

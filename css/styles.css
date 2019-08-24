@@ -390,17 +390,17 @@ b.max-bold {
     display: block;
     position: relative;
     margin-bottom: 10px;
-    padding-left: 20px;
+    padding-left: 0px;
 }
 
 .experience .list>li:before {
     content: '';
     position: absolute;
-    top: 50%;
-    left: 0;
+    top: 7px;
+    left: 1px;
     height: 10px;
     width: 10px;
-    margin-top: -5px;
+    margin-top: 0px;
     display: block;
     border-radius: 10px;
     border: 2px solid #555;
@@ -486,19 +486,18 @@ b.max-bold {
     position: relative;
     margin-bottom: 10px;
     padding-left: 20px;
-    list-style-type: circle;
 }
 
 .education .list>li:before {
-    /* content: '';
+    content: '';
     position: absolute;
-    top: 50%;
-    left: 0;
+    top: 7px;
+    left: 1px;
     height: 10px;
     width: 10px;
-    margin-top: -5px;
+    margin-top: 0px;
     display: block;
-    border-radius: 10px; */
+    border-radius: 10px;
     border: 2px solid #555;
 }
 
