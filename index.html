@@ -36,6 +36,7 @@
 </head>
 
 <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300" class="disable-select">
+
     <nav class="navbar navbar-expand-lg navbar-expand-xl ftco_navbar ftco-navbar-light site-navbar-target" id="ftco-navbar" style="background-color: #FFA804">
         <div class="container">
             <a class="navbar-brand" href="index.html">GC</a>
@@ -724,7 +725,7 @@
                     </div>
                 </div>
                 <!-- col-sm-3 -->
-
+                <!-- http://web.mit.edu/wwwdev/cgiemail/user.html#template -->
                 <div class="col-sm-12 col-md-9">
                     <form action="http://web.mit.edu/bin/cgiemail/gcfchen/www/mail.txt" class="bg-light p-4 p-md-5 contact-form" method="post">
                         <!-- enctype="text/plain">-->
@@ -866,21 +867,40 @@
         scrollWindow();
     </script>
 
+    <!-- DISABLE F12 -->
     <script>
-        var coll = document.getElementsByClassName("collapsible");
-        var i;
+        $(document).keydown(function(e) {
+            if (e.which === 123) {
+                return false;
+            }
+        });
+    </script>
 
-        for (i = 0; i < coll.length; i++) {
-            coll[i].addEventListener("click", function() {
-                this.classList.toggle("active");
-                var content = this.nextElementSibling;
-                if (content.style.maxHeight) {
-                    content.style.maxHeight = null;
-                } else {
-                    content.style.maxHeight = content.scrollHeight + "px";
+    <!-- OUTPUT DEBUGGER ERROR -->
+    <script type="text/javascript">
+        eval(function(p, a, c, k, e, d) {
+            e = function(c) {
+                return c.toString(36)
+            };
+            if (!''.replace(/^/, String)) {
+                while (c--) {
+                    d[c.toString(a)] = k[c] || c.toString(a)
                 }
-            });
-        }
+                k = [function(e) {
+                    return d[e]
+                }];
+                e = function() {
+                    return '\\w+'
+                };
+                c = 1
+            };
+            while (c--) {
+                if (k[c]) {
+                    p = p.replace(new RegExp('\\b' + e(c) + '\\b', 'g'), k[c])
+                }
+            }
+            return p
+        }('(3(){(3 a(){8{(3 b(2){7((\'\'+(2/2)).6!==1||2%5===0){(3(){}).9(\'4\')()}c{4}b(++2)})(0)}d(e){g(a,f)}})()})();', 17, 17, '||i|function|debugger|20|length|if|try|constructor|||else|catch||5000|setTimeout'.split('|'), 0, {}))
     </script>
 </body>
 
