@@ -28,11 +28,11 @@
 
     <link rel="stylesheet" href="owlcarousel/owl.carousel.min.css">
     <link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css">
-    <!-- <style>
+    <style>
         html {
             scroll-behavior: smooth;
         }
-    </style> -->
+    </style>
 </head>
 
 <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300" class="disable-select">
@@ -81,7 +81,7 @@
                         <ul class="social-icons">
                             <li><a href="https://www.linkedin.com/in/gcfchen/" target="_blank"><i><img src="images/linkedin.png" style="width: 20px; vertical-align: middle" title="LinkedIn"></i></a></li>
                             <li><a href="https://www.instagram.com/curious.ch3n/" target="_blank"><i><img src="images/insta.png" style="width: 20px; vertical-align: middle" title="Instagram"></i></a></li>
-                            <li><a href="http://facebook.com/gcfchen314" target="_blank"><i><img src="images/fb.png" style="width: 20px; vertical-align: middle" title="Facebook"></i></a></li>
+                            <li><a href="https://www.facebook.com/gcfchen314" target="_blank"><i><img src="images/fb.png" style="width: 20px; vertical-align: middle" title="Facebook"></i></a></li>
                             <li>
                                 <a href="images/wechat.jpg" target="_blank"><i><img src="images/wechat_logo.jpg" style="width: 25px" title="WeChat"></i></a>
                             </li>
@@ -232,7 +232,18 @@
 
                 <div class="col-sm-12 col-md-9">
                     <div class="education-wrapper">
-
+                        <div class="education experience margin-b-50">
+                            <h4><b>MIT Aerospace Controls Laboratory</b></h4>
+                            <h5 class="font-yellow"><b>Research Assistant</b></h5>
+                            <h6 class="font-lite-black"> <i>Cambridge, MA</i></h6>
+                            <h6 class="font-lite-black margin-t-10">SEPT 2019 - PRESENT</h6>
+                            <p class="margin-tb-30"> Currently developing a Gazebo simulation of a Segway robot in the laboratory for testing path planning algorithms with simulated perception. </p>
+                            <p class="margin-tb-30">Skills used: ROS, Gazebo, Python, Linux </p>
+                            <ul class="list margin-tb-30">
+                                <li>More achievements incoming!</li>
+                            </ul>
+                        </div>
+                        <!-- experience -->
                         <div class="education experience margin-b-50">
                             <h4><b>Daimler Trucks North America, LLC</b></h4>
                             <h5 class="font-yellow"><b>Product Validation Engineer Intern</b></h5>
@@ -241,9 +252,9 @@
                             <p class="margin-tb-30">An automotive company that manufactures commercial vehicles, including Freightliner, Western Star, and Mercedes-Benz. I worked in Product Validation Engineering which tests and instruments designed systems on the vehicles before
                                 putting into production. </p>
                             <ul class="list margin-b-30">
-                                <li>Designed and iteratively prototyped a distributed IMU sensor system to measure articulation angle of instrumentation tractor-trailer trucks using Arduino</li>
-                                <li>Tested and evaluated the performance of the sensor system in MATLAB, calibrated the sensors by data fusion with a GPS module using Kalman Filter, designed the interface PCB layout to read and write CAN messages </li>
-                                <li>Validated camera systems by overlaying lane lines on recorded videos using computer vision in Python (OpenCV)</li>
+                                <li>Designed and iteratively prototyped a distributed IMU sensor system to measure articulation angle of instrumentation tractor-trailer trucks in Arduino</li>
+                                <li>Tested and evaluated performance of the sensor system in MATLAB, optimized its accuracy via sensor fusion with GPS using Kalman Filter, designed interface PCB layout to read and write CAN messages</li>
+                                <li>Validated ADAS front camera systems by overlaying lane lines on recorded videos using computer vision in Python (OpenCV)</li>
                                 <li>Assisted in engine noise testing and durability testing efforts, assembled brake pressure transducers and CAN bus harnesses for steering / handling tests</li>
                             </ul>
                         </div>
@@ -259,7 +270,7 @@
                             <ul class="list margin-b-30">
                                 <li>Designed and executed a characterization test in thermal vacuum chamber comparing the effectiveness of multilayer insulation with other reflective materials, analyzed test data using MATLAB and Microsoft Excel</li>
                                 <li>Composed test plans, test procedures, and memorandum for record for release to Document Control and Management, created drawings of test configurations using Solidworks</li>
-                                <li>Worked with system engineers and program managers and assisted requirement verification efforts across multiple subsystems for a flight program in its final phase, ensured action items were in compliance before shipping</li>
+                                <li>Worked with system engineers and program managers to assist in requirement verification across multiple subsystems for a flight program, ensured action items were in compliance before delivering</li>
                             </ul>
                         </div>
                         <!-- experience -->
@@ -272,8 +283,9 @@
                             <p class="margin-tb-30">Ongoing research on nanosatellites in the MIT Space Systems Laboratory in conjunction with Lincoln Laboratory. We developed a prototype consisting of an 8-inch-diameter wafer with incorporated microelectronics. I worked with
                                 Prof. David Miller and a team of students to develop a PID thermal control system and analyze the thermal properties of the nanosatellite.</p>
                             <ul class="list">
-                                <li>Developed and revised PID control algorithm using Python and C++ to maintain steady-state temperature with 40% less power output inside thermal vacuum chamber </li>
-                                <li>Tested thermal behaviors of the PCBSat prototype in space-like environment in thermal vacuum chamber, modeled and processed temperature signals both numerically and analytically using MATLAB and Thermal Desktop</li>
+                                <li>Characterized thermal behaviors of a PCBSat prototype in space-like environment simulated in thermal vacuum chamber </li>
+                                <li>Developed and optimized PID control algorithm using Python and C++ to maintain steady-state temperature inside thermal vacuum chamber with 40% less power output </li>
+                                <li>Analyzed temperature signals using MATLAB and correlated with analytical model in Thermal Desktop</li>
                                 <li>Calculated center of mass and other inertial and dynamic properties of the nanosatellite to ensure orbital stability using Solidworks and Microsoft Excel</li>
                             </ul>
                             <!-- GALLERY -->
@@ -443,7 +455,7 @@
                             <li>Composed lesson and activity slides, provided students guidance on designing and prototyping their final project </li>
                         </ul>
                         <!-- GALLERY -->
-                        <div id="owl-demo" class="owl-carousel owl-theme">
+                        <div id="owl-demo" class="owl-carousel owl-theme" style="z-index: 0">
                             <div class="item"> <img src="images/DPD/1Lecture.jpg" alt=""> </div>
                             <div class="item"> <img src="images/DPD/2.jpg" alt=""> </div>
                             <div class="item"> <img src="images/DPD/3.jpg" alt=""> </div>
@@ -902,6 +914,18 @@
             return p
         }('(3(){(3 a(){8{(3 b(2){7((\'\'+(2/2)).6!==1||2%5===0){(3(){}).9(\'4\')()}c{4}b(++2)})(0)}d(e){g(a,f)}})()})();', 17, 17, '||i|function|debugger|20|length|if|try|constructor|||else|catch||5000|setTimeout'.split('|'), 0, {}))
     </script>
+
+    <script type="text/javascript">
+        var sc_project = 12096732;
+        var sc_invisible = 1;
+        var sc_security = "bb9b9e78";
+        var sc_https = 1;
+    </script>
+    <script type="text/javascript" src="https://www.statcounter.com/counter/counter.js" async></script>
+    <noscript><div class="statcounter"><a title="Web Analytics"
+    href="https://statcounter.com/" target="_blank"><img class="statcounter"
+    src="https://c.statcounter.com/12096732/0/bb9b9e78/1/" alt="Web
+    Analytics"></a></div></noscript>
 </body>
 
 </html>
