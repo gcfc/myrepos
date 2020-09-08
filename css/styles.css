@@ -61,7 +61,7 @@ ul,
 span,
 li,
 img,
-inpot,
+input,
 button {
     margin: 0;
     padding: 0;
@@ -79,8 +79,9 @@ h6 {
 
 h1,
 h2,
-h3 {
-    font-family: 'Poppins', cursive;
+h3,
+h6 {
+    font-family: 'Montserrat', cursive;
 }
 
 p {
@@ -219,7 +220,7 @@ b.max-bold {
 }
 
 .font-yellow {
-    color: #FFA600;
+    color: #FFA804;
 }
 
 .font-semi-white {
@@ -261,7 +262,7 @@ b.max-bold {
     border-radius: 5px;
     padding: 30px 40px 20px;
     margin-bottom: 50px;
-    background: #FFAD01;
+    background: #FFA804;
     color: #fff;
 }
 
@@ -337,7 +338,7 @@ b.max-bold {
     float: right;
     margin-top: 30px;
     box-shadow: inset 0 0px 4px rgba(0, 0, 0, .3);
-    background: #FFAD01;
+    background: #FFA804;
     color: #fff;
     -webkit-transition: all .2s ease;
     transition: all .2s ease;
@@ -478,7 +479,7 @@ b.max-bold {
     border-radius: 10px;
     z-index: 1;
     box-shadow: 0 0 0 8px rgba(255, 171, 0, .4);
-    background: #FFAB00;
+    background: #FFA804;
 }
 
 .education .list>li {
