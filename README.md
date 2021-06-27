@@ -4,6 +4,4 @@
 
 Date started: July 11, 2019
 
-Last updated: September 7, 2020
-
 Languages used: HTML, CSS, JavaScript
