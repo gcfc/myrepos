@@ -5,3 +5,5 @@
 Date started: July 11, 2019
 
 Languages used: HTML, CSS, JavaScript
+
+Version: v1.6
